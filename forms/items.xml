@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset label="PLG_CONTENT_FEATURES_FEATURE_TITLE">
+		<field name="name" 
+			type="text" 
+			filter="safehtml" 
+			required="true" 
+			class="span12"
+			label="PLG_CONTENT_FEATURES_FEATURE_NAME_LBL" 
+			description="PLG_CONTENT_FEATURES_NAME_FEATURE_DESC" 
+			hint="PLG_CONTENT_FEATURES_FEATURE_NAME_HINT"/>
+		<field name="val" 
+			type="text" 
+			filter="safehtml" 
+			required="true" 
+			class="span12"
+			label="PLG_CONTENT_FEATURES_FEATURE_VALUE_LBL" 
+			description="PLG_CONTENT_FEATURES_FEATURE_VALUE_DESC"
+			hint="PLG_CONTENT_FEATURES_FEATURE_VALUE_HINT"/>
+	</fieldset>
+</form>

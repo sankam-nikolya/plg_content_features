@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="attribs">
+		<fieldset name="features" label="PLG_CONTENT_FEATURES_FEATURES_TITLE">
+			<field name="features" 
+				type="subform" 
+				max="1000" 
+				formsource="plugins/content/features/forms/items.xml"
+				multiple="true"
+				layout="joomla.form.field.subform.repeatable-table"
+				label="PLG_SYSTEM_GEOCODE_REDIRECTS" 
+				buttons="add,remove,move"
+				hidden="hidden" />
+		</fieldset>
+	</fields>
+</form>

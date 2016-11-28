@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="3.0" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_FEATURES</name>
+	<author>Nikolya</author>
+	<creationDate>November 2016</creationDate>
+	<copyright>Copyright (C) 20011 - 2016 SNAKAM, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 3 or later</license>
+	<authorEmail>k_m_i@i.ua</authorEmail>
+	<authorUrl>http://sankam.com.ua</authorUrl>
+	<version>1.0.5</version>
+	<description>PLG_CONTENT_FEATURES_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="features">features.php</filename>
+		<filename>index.html</filename>
+		<folder>forms</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="show" type="text"
+					label="PLG_CONTENT_FEATURES_FEATURES_SHOW_LBL"
+					description="PLG_CONTENT_FEATURES_FEATURES_SHOW_DESC"
+					default="5"
+					filter="INT"
+					required="true" />
+			</fieldset>
+		</fields>
+	</config>
+	<languages folder="languages">
+		<language tag="en-GB">en-GB/en-GB.plg_content_features.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_features.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_content_features.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_content_features.sys.ini</language>
+	</languages>
+</extension>
