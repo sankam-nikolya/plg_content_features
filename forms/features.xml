@@ -8,7 +8,7 @@
 				formsource="plugins/content/features/forms/items.xml"
 				multiple="true"
 				layout="joomla.form.field.subform.repeatable-table"
-				label="PLG_SYSTEM_GEOCODE_REDIRECTS" 
+				label="PLG_CONTENT_FEATURES_FEATURES_TITLE" 
 				buttons="add,remove,move"
 				hidden="hidden" />
 		</fieldset>
